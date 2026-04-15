@@ -177,7 +177,7 @@ function AuthPage() {
     setSuccessMessage("");
 
     if (!GOOGLE_CLIENT_ID) {
-      setError("Google sign-in is not configured yet. Add VITE_GOOGLE_CLIENT_ID in frontend/.env.");
+      setError("Google sign-in is not configured yet. Add VITE_GOOGLE_CLIENT_ID in your frontend environment.");
       setLoading(false);
       return;
     }
